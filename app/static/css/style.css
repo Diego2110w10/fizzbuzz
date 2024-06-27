@@ -1,0 +1,29 @@
+:root {
+    --color-text: #FFFFCC;
+    --color-backgroud: #0000FF;
+}
+
+body {
+    background: var(--color-backgroud);
+    color: var(--color-text)
+    font-family: Jaro;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.header, .info, .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info {
+    line-height: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}
